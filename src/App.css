@@ -2,8 +2,25 @@
   text-align: center;
 }
 
+button {
+  border          : none;
+  background-color: orangered;
+  width           : 120px;
+  height          : 50px;
+  font-size       : 16px;
+  color           : wheat;
+  box-shadow      : 10px 10px 10px  palegreen;
+  
+}
+button:hover{
+  cursor: pointer;
+  background-color: olive;
+  color: blueviolet;
+}
+
+
 .App-logo {
-  height: 40vmin;
+  height        : 100px;
   pointer-events: none;
 }
 
@@ -14,14 +31,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color  : #282c34;
+  min-height        : 100vh;
+  display           : flex;
+  flex-direction    : column;
+  align-items       : center;
+  /* justify-content: center; */
+  font-size         : calc(10px + 2vmin);
+  color             : white;
 }
 
 .App-link {
@@ -32,7 +49,13 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+hr{
+  width: 60%;
+  height: 1px;
+  background-color: aqua;
 }
